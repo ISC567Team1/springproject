@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WebApplication1.Controllers
+namespace WebApplication2.Controllers
 {
     public class HomeController : Controller
     {
@@ -15,7 +15,6 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            //testing
             ViewBag.Message = "Your application description page.";
 
             return View();
