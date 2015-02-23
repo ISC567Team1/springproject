@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c169bcbbdd9d4c129e5f53320a9ae5d2" Name="Diagram1">
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.Answer" Width="1.5" PointX="16" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.BKLevel1" Width="1.5" PointX="3" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.BKLevel2" Width="1.5" PointX="6" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.course" Width="1.5" PointX="5.25" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.courseoutcome" Width="1.5" PointX="7.5" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.curriculum" Width="1.5" PointX="0.75" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.CurriculumPeople" Width="1.5" PointX="3" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.etype" Width="1.5" PointX="6" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.exam" Width="1.5" PointX="8.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.exam_status" Width="1.5" PointX="6" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.examitem" Width="1.5" PointX="12.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.ExK1" Width="1.5" PointX="3.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.ExK2" Width="1.5" PointX="3.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.ExK3" Width="1.5" PointX="3.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.institution" Width="1.5" PointX="6" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.institutionpeople" Width="1.5" PointX="8.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.InstitutionProgram" Width="1.5" PointX="5.25" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.key1" Width="1.5" PointX="10.5" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.key2" Width="1.5" PointX="10.5" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.key3" Width="1.5" PointX="9.75" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.Person" Width="1.5" PointX="0.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.program" Width="1.5" PointX="3" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.programstatu" Width="1.5" PointX="0.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.programstatushistory" Width="1.5" PointX="5.25" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.roster" Width="1.5" PointX="12.75" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.scheduled_exam" Width="1.5" PointX="10.5" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.skillclass" Width="1.5" PointX="5.25" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.skill" Width="1.5" PointX="7.5" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.society" Width="1.5" PointX="3.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.sponsor" Width="1.5" PointX="6" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.subskill" Width="1.5" PointX="9.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.subskillincourseoutcome" Width="1.5" PointX="9.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.svtable" Width="1.5" PointX="15.75" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.taker" Width="1.5" PointX="10.5" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="DATABASE_EDTSModel.taker_exam_status" Width="1.5" PointX="13.5" PointY="24" IsExpanded="true" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Answer__examitem__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Answer__rosterid__19DFD96B" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_BKLevel1_curriculumid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_BKLevel1_programid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_BKLevel2_curriculumid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_BKLevel2_programid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.courseid_key1" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_course_id" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_program_id" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_subskillincourseoutcome_CourseOutcomesID" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Curriculu__Curri__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_curriculumid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_curriculumid121" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Curriculu__Perso__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_etypeid_exam" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_exk1id_etype" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_exk2id_etype" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_exk3id_etype" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.examid_examitem" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_exam_programid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_examid_examstatusHist" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_examid_sch_exam" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_examstatusid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__examitem__key1id__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__examitem__key2id__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__examitem__key3id__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.exk1id_key1" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.exk2id_key2" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__key3__exk3ID__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Instituti__Insti__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_institutionpeople_institutionid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_SVTABLE_Institutionid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_institutionpeople_personid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.instpeopleid_sch_exam" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__Instituti__Progr__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK__key3__SkillsID__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_SVTABLE_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_Taker_PersionID" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_programid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_programstatusid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_skillclass_programid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_schexamid_roster" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_takerid_roster" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_SVTABLE_scheduledexamid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_skills_skillclassid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.fk_subskill_skillid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.Fk_societyid" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_SVTABLE_TakerID" ManuallyRouted="false" />
+        <AssociationConnector Association="DATABASE_EDTSModel.FK_takerid_takerexstatus" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
