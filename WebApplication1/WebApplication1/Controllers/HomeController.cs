@@ -10,9 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            //12345
-            //change 
-            //jbhkk
+            
             return View();
         }
 
